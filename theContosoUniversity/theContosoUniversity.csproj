@@ -176,10 +176,16 @@
     <Compile Include="Migrations\201709072218520_adddedFullNameToStudents.Designer.cs">
       <DependentUpon>201709072218520_adddedFullNameToStudents.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709072300057_addedThreeModels.cs" />
+    <Compile Include="Migrations\201709072300057_addedThreeModels.Designer.cs">
+      <DependentUpon>201709072300057_addedThreeModels.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Enrollment.cs" />
     <Compile Include="Models\Instructor.cs" />
+    <Compile Include="Models\OfficeAssignment.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -258,6 +264,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709072218520_adddedFullNameToStudents.resx">
       <DependentUpon>201709072218520_adddedFullNameToStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709072300057_addedThreeModels.resx">
+      <DependentUpon>201709072300057_addedThreeModels.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
