@@ -164,9 +164,22 @@
     <Compile Include="Migrations\201709071813551_Initial Migration.Designer.cs">
       <DependentUpon>201709071813551_Initial Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709072201012_Added max length on names.cs" />
+    <Compile Include="Migrations\201709072201012_Added max length on names.Designer.cs">
+      <DependentUpon>201709072201012_Added max length on names.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709072212509_changedFirstMidNameToFirstName.cs" />
+    <Compile Include="Migrations\201709072212509_changedFirstMidNameToFirstName.Designer.cs">
+      <DependentUpon>201709072212509_changedFirstMidNameToFirstName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709072218520_adddedFullNameToStudents.cs" />
+    <Compile Include="Migrations\201709072218520_adddedFullNameToStudents.Designer.cs">
+      <DependentUpon>201709072218520_adddedFullNameToStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Enrollment.cs" />
+    <Compile Include="Models\Instructor.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\EnrollmentDateGroup.cs" />
@@ -236,6 +249,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709071813551_Initial Migration.resx">
       <DependentUpon>201709071813551_Initial Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709072201012_Added max length on names.resx">
+      <DependentUpon>201709072201012_Added max length on names.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709072212509_changedFirstMidNameToFirstName.resx">
+      <DependentUpon>201709072212509_changedFirstMidNameToFirstName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709072218520_adddedFullNameToStudents.resx">
+      <DependentUpon>201709072218520_adddedFullNameToStudents.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
