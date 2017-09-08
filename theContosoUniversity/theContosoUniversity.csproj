@@ -195,6 +195,10 @@
     <Compile Include="Migrations\201709081921086_createdSameNamespace.Designer.cs">
       <DependentUpon>201709081921086_createdSameNamespace.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709082240167_DepartmentSP.cs" />
+    <Compile Include="Migrations\201709082240167_DepartmentSP.Designer.cs">
+      <DependentUpon>201709082240167_DepartmentSP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -308,6 +312,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709081921086_createdSameNamespace.resx">
       <DependentUpon>201709081921086_createdSameNamespace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709082240167_DepartmentSP.resx">
+      <DependentUpon>201709082240167_DepartmentSP.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
