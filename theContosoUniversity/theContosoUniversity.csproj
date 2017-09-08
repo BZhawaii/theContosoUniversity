@@ -184,6 +184,10 @@
     <Compile Include="Migrations\201709081637527_newCourseUpdate.Designer.cs">
       <DependentUpon>201709081637527_newCourseUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709081640327_fixCourseModel.cs" />
+    <Compile Include="Migrations\201709081640327_fixCourseModel.Designer.cs">
+      <DependentUpon>201709081640327_fixCourseModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -274,6 +278,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709081637527_newCourseUpdate.resx">
       <DependentUpon>201709081637527_newCourseUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709081640327_fixCourseModel.resx">
+      <DependentUpon>201709081640327_fixCourseModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
