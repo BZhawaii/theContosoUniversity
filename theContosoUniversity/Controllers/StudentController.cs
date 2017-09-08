@@ -6,8 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ContosoUniversity.DAL;
-using ContosoUniversity.Models;
+using theContosoUniversity.DAL;
+using theContosoUniversity.Models;
 using PagedList;
 
 namespace theContosoUniversity.Controllers

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using theContosoUniversity.Models;
-using ContosoUniversity.Models;
 
 
 namespace theContosoUniversity.ViewModels

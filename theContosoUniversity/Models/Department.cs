@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using theContosoUniversity.Models;
 
 
-namespace ContosoUniversity.Models
+namespace theContosoUniversity.Models
 {
     public class Department
     {

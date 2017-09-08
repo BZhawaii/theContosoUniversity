@@ -1,8 +1,8 @@
-﻿using ContosoUniversity.Models;
+﻿using theContosoUniversity.Models;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace ContosoUniversity.DAL
+namespace theContosoUniversity.DAL
 {
     public class SchoolContext : DbContext
     {
@@ -20,7 +20,7 @@ namespace ContosoUniversity.DAL
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
 
-        public System.Data.Entity.DbSet<ContosoUniversity.Models.Department> Departments { get; set; }
+        public System.Data.Entity.DbSet<theContosoUniversity.Models.Department> Departments { get; set; }
 
         public System.Data.Entity.DbSet<theContosoUniversity.Models.Instructor> Instructors { get; set; }
 
